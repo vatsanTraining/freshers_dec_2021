@@ -5,7 +5,7 @@ Create a Java Class Application with main method and Test Current Converter  dol
 
 Task-2 
 
-Create a Java classes to represent a Customer , Employee, Hotel 
+Create a Java classes to represent a Customer , Employee, Hotel in separate packages
 
 Add the Consturctors, setter/getter methods and Check its working properly using the Main Method 
 
