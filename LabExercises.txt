@@ -1,4 +1,19 @@
+Task - 1
 Create a Java Class Currency Converter with a method usDollorToInr(double dlrAmount)
 Add the logic for conversion
 Create a Java Class Application with main method and Test Current Converter  dollorToInr method
+
+Task-2 
+
+Create a Java classes to represent a Customer , Employee, Hotel 
+
+Add the Consturctors, setter/getter methods and Check its working properly using the Main Method 
+
+
+Task -3 
+
+Create a Java Class EmployeeService add a Method  public double calculateBonus(Employee object)
+Calculate the bonus as the 33% of the monthly salary.
+
+
 
