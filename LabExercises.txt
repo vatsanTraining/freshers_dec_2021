@@ -1,0 +1,4 @@
+Create a Java Class Currency Converter with a method dollorToInr(double dlrAmount)
+Add the logic for conversion
+Create a Java Class Application with main method and Test Current Converter  dollorToInr method
+
