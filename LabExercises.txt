@@ -15,5 +15,17 @@ Task -3
 Create a Java Class EmployeeService add a Method  public double calculateBonus(Employee object)
 Calculate the bonus as the 33% of the monthly salary.
 
+Task -4
+
+
+1.	Create Java Class Book with details like int id, String bookName, String author, double price.
+2.	Create a Java Class BookService Which will have overloaded methods to calculate the discount .
+3.	One Method will take book Object as argument and calculate the discount on the basis of price 
+    a. use a simple if else ladder if Price < 500  5 % discount   if price >500 and price <1000 10 % and if price>1000 12% 
+4.	Another Method will take book and customer type  -> Corporate or Retail  and the discount will be calculated using  both switch case and if else-if ladder
+    a.  For Corporate Customer if Price < 500  7 % discount   if price >500 and price <1000 12 % and if price>1000 15%
+    b.  For Retial Customer if Price < 500  5 % discount   if price >500 and price <1000 10 % and if price>1000 12%
+5.	Take the input for the application in the main method using scanner class 
+6.	Try Invoking  Both the Methods from the Main Method
 
 
