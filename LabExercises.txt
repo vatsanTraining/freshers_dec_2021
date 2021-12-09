@@ -15,7 +15,19 @@ Task -3
 Create a Java Class EmployeeService add a Method  public double calculateBonus(Employee object)
 Calculate the bonus as the 33% of the monthly salary.
 
-Task -4
+Task -4 
+
+1	Create a Java Class MobileBill
+2	Add attributes like customerName, mobilenumber ,planname 
+3	Create overloaded constructor  zero and parametrized
+4	Define one  Constant(public static final)  in the class
+5.  Create a Method findAmount and Use switch case to calculate the amount based on the planName
+     If its prepaid   amount is 200 and postpaid its 300
+6.  Test the Methods by Calling from the main Method     
+
+
+
+Task -5
 
 
 1.	Create Java Class Book with details like int id, String bookName, String author, double price.
