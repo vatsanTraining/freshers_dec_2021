@@ -18,7 +18,7 @@ Calculate the bonus as the 33% of the monthly salary.
 Task -4 
 
 1	Create a Java Class MobileBill
-2	Add attributes like customerName, mobilenumber ,planname 
+2	Add attributes like String customerName, long mobilenumber ,String planname and Address address
 3	Create overloaded constructor  zero and parametrized
 4	Define one  Constant(public static final)  in the class
 5.  Create a Method findAmount and Use switch case to calculate the amount based on the planName
