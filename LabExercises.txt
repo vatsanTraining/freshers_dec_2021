@@ -41,6 +41,28 @@ Task -5
 5.	Take the input for the application in the main method using scanner class 
 6.	Try Invoking  Both the Methods from the Main Method
 
+Task-6
+
+ 1. Create a Abstract Class Class Bank Account with two abstract methods depositr(double amount) , withdraw(double amount)
+ 2. Create  two sub classes   SavingsAccount and Business Account override deposit and withdraw methods
+ 3.  SavingsAccount requires to maintain a minimum balance of 5000
+ 4.   Business Account requires to maintain a minimum balance of 25000
+5.   Saving Account holder can deposit upto 100000 
+ 6.   Business Account Holder can deposit upto 1000000 
+
+  Show a error message if the above condition is not met
+
+Test both deposit and withdraw methods from the Main application
+
+Task -7 
+
+  1. Create an Interface Billable - with a method public double calculate(Object[] objects).
+  2. Calculate method will calculate the salary based on some condition which   will differ for different classes
+  3. Create classes like SoftwareEnginner , CivilEnginner, Plumber ,Advocate etc.,
+  4. Implement the Billable interface in all these classes and override the calculate method
+  5. Create a Service with One Method which take Billable as argument and print the calculated amount
+   
+
 
 QUIZ LINKS 
 
