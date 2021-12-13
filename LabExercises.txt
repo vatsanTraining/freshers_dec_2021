@@ -43,10 +43,10 @@ Task -5
 
 Task-6
 
- 1. Create a Abstract Class Class Bank Account with two abstract methods depositr(double amount) , withdraw(double amount)
+ 1. Create a Abstract Class Class Bank Account with two abstract methods double deposit(double amount) , double withdraw(double amount)
  2. Create  two sub classes   SavingsAccount and Business Account override deposit and withdraw methods
- 3.  SavingsAccount requires to maintain a minimum balance of 5000
- 4.   Business Account requires to maintain a minimum balance of 25000
+ 3.  SavingsAccount Holders are required to maintain a minimum balance of 5000
+ 4.   Business Account Holders are required to maintain a minimum balance of 25000
 5.   Saving Account holder can deposit upto 100000 
  6.   Business Account Holder can deposit upto 1000000 
 
