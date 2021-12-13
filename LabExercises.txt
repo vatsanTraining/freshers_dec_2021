@@ -62,6 +62,16 @@ Task -7
   4. Implement the Billable interface in all these classes and override the calculate method
   5. Create a Service with One Method which take Billable as argument and print the calculated amount
    
+ Task -8 
+   
+ Create a Java Class EmployeeService with a  method double calculateTotalSalary(Employee[] empList) 
+ The Method should return the total salary of all the employees 
+ If the size of the empList is less than 2 or greater than 5 throw the Custom Execpetion RangeCheckException.
+ Test the code from the main method .
+ 
+ 
+ 
+   
 
 
 QUIZ LINKS 
