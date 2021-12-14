@@ -78,6 +78,7 @@ Task -7
  4 If the email doesnot contain the character "@" or ".com" or ".org" or ".in" throw InvalidEmailException  with suitable message
  5.Use the String class method no need to use regurlar expressions
  6. Check the email both in the constructor and setEmail method
+ 7. Create a Logger and Add the log message to the console and to a file
    
 
 
