@@ -70,7 +70,14 @@ Task -7
  Test the code from the main method .
  
  
+ Task -9 
  
+ 1 Create a Java Class InvalidEmailException by extending Exception Class 
+ 2 Override the getMessage method 
+ 3 Create a Class Customer with properties like customerId,customerName ,phoneNumber and email.
+ 4 If the email doesnot contain the character "@" or ".com" or ".org" or ".in" throw InvalidEmailException  with suitable message
+ 5.Use the String class method no need to use regurlar expressions
+ 6. Check the email both in the constructor and setEmail method
    
 
 
