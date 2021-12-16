@@ -70,6 +70,8 @@ Task -7
  Test the code from the main method .
  
  
+ 
+ 
  Task -9 
  
  1 Create a Java Class InvalidEmailException by extending Exception Class 
@@ -80,6 +82,17 @@ Task -7
  6. Check the email both in the constructor and setEmail method
  7. Create a Logger and Add the log message to the console and to a file
    
+Task -10 
+
+1. Create a Java Class called Doctor props(id,name,specialization,location)
+2. Doctor has a Set of Patients props(id,parientName,address,email)
+3. Doctor also has a list of Staff Members represented by a Map  the key being String which represents the designation and value being Staff represented
+   by a Java class Staff (can decided by developers)
+4. Given a DoctorName  application should return list of Patient
+5. Given a DoctorName  application should return list of Staff Memebers
+6. Use a Interface Based design with a Service Class and Main method
+
+
 
 
 QUIZ LINKS 
