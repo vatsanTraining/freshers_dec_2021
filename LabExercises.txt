@@ -93,7 +93,26 @@ Task -10
 6. Use a Interface Based design with a Service Class and Main method
 
 
+Task -11
 
+Create a Java Class Invoice with following fields
+     private int invoiceNumber;
+	private String customerName;
+	private double quantity;
+	private double ratePerUnit;
+	private LocalDate invoiceDate;
+ Create   Service InvoiceService with a method public static List<Invoice> getInvoice(){}  which return a list of Invoices 
+ Create  the following utility methods and test the application 
+ 
+    public static  List<Invoice> sortedByRatePerUnitAsc(Collection<Invoice> invList){}
+    public Map<String,Double> mapViewOfList(Collection<Invoice> invList) {}
+    public Set<Invoice> setViewOfList(Collection<Invoice> invList,
+    		   Predicate<Invoice> predicate){}
+   public long findMaxInvoiceValue(Collection<Invoice> invList,Comparator comp) {}
+             
+    
+     
+	
 
 QUIZ LINKS 
 
