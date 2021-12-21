@@ -111,7 +111,16 @@ Create a Java Class Invoice with following fields
    public long findMaxInvoiceValue(Collection<Invoice> invList,Comparator comp) {}
              
     
+     Task -11
      
+     1. Create a Java Class called Doctor props(id,name,specialization,location)
+     2. Store the Details of the Doctors in a plain text file 
+     3. Read the doctors details from the text file and store into a collection 
+     4. Create a Method which take the specialization as arguemnt and returns the List of doctors with that specialization 
+     5. Create a Method which takes the location as argument and returns the List of doctors in that location 
+     6. Create a Method which takes the location and specialization and return the list of the doctors with that specialization and location
+
+
 	
 
 QUIZ LINKS 
