@@ -1,0 +1,28 @@
+
+Create a Table Student Master with the following structure
+
+Stud_master
+Roll_No	Name	Department	Year hostel
+1784	Ram	Physics	1     Ganga
+1648	Sham	Chemistry	1  Kaveri
+1768	Bharat	Maths	2    Kaveri
+1848	Arjun	Botany	2   Ganga
+1682	Nakul	Geology	3   Godavari
+1485	Sahadeo	Zoology	4  Ganga
+
+Hostel_master
+
+Hostel_Mast
+Year	Hostel_name wardenname
+1	Ganga       mani
+2	Kaveri      ram
+3	Krishna     shyam
+4	Godavari    leela
+
+
+
+1. Create a Equi Join to get the details of the Student along with their names and hostel they are assigned to
+
+2. Create Right/LEFT outer joins to the get the details student who are not assigned to any hostel and also hostel which doesnot have any studnet assigned
+
+3. Try practicsing few self joins on the Student Master
