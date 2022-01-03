@@ -132,7 +132,7 @@ The following are the requirements
 	•	Address
 	•	Email address
 	•	Phone number
-	•	Birthdays
+	•	Birthday
 	•	Wedding Anniversary 
 2.	Should be able to add employee details
 3.	Should be able retrieve information already stored  by entering employees  firstName.
