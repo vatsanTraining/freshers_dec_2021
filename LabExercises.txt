@@ -120,6 +120,26 @@ Create a Java Class Invoice with following fields
      5. Create a Method which takes the location as argument and returns the List of doctors in that location 
      6. Create a Method which takes the location and specialization and return the list of the doctors with that specialization and location
 
+Task -12
+
+The personal details of all employees are stored in a Database 
+It’s required to create an application that can fulfil the requirements to store and view the details of employees:
+
+The following are the requirements 
+1.	The Database should have following details stored
+	•	FirstName
+	•	Last Name
+	•	Address
+	•	Email address
+	•	Phone number
+	•	Birthdays
+	•	Wedding Anniversary 
+2.	Should be able to add employee details
+3.	Should be able retrieve information already stored  by entering employees  firstName.
+4.	Should be able edit the details of a particular employee.
+5.	Should be able to get the list of employees with their firstName and email_id whose Birthday falls on the given date
+6.	Should be able to get the list of employee with their firstName and phone Number whose Wedding Anniversary falls on the given date
+7.	Should be to get the details of FirstName and Phone Number of all the employees
 
 	
 
