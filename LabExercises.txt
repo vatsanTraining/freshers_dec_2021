@@ -141,6 +141,43 @@ The following are the requirements
 6.	Should be able to get the list of employee with their firstName and phone Number whose Wedding Anniversary falls on the given date
 7.	Should be to get the details of FirstName and Phone Number of all the employees
 
+========================================================================================================
+
+Task -12
+
+Create a Spring Boot Strater Project and practice the following
+
+1. Create a Spring Boot Starter Project
+2. Create a Java Bean Customer with the following fields
+
+public class Customer {
+
+	int customerId;
+	String customerName;
+	long mobileNumber;
+	String email;
+	
+}
+
+3. Create a Java Bean Invoice with the following fields
+
+  public class Invoice{
+
+   int invoiceNumber;
+   Customer customer;
+   double amount
+
+}
+
+4. Create a Java Class with the Annotation @Configuration and register the Customer and 
+   Invoice bean using the Factory Method with @Bean annotation 
+
+5. Test the application by accessing the Customer and invoice beans from the main method
+
+6. Create More than one Customer and observer the output , if there are any exection thrown
+   make the suitable changes
+
+
 	
 
 QUIZ LINKS 
