@@ -179,7 +179,6 @@ public class Customer {
 
 Task -14
 
-Assignment -1 
 
  Create a Java class SalesOrder with properties  ( int orderId, LocalDate createdDate,Customer customer, List<Item> itemList)
  Create a Customer Class with properties ( int id, String customerName, String address)
