@@ -185,12 +185,13 @@ Assignment -1
  Create a Customer Class with properties ( int id, String customerName, String address)
  Create a Item class with (long itemNumber, String itemName,double quantity ,double ratePerUnit)
  Create a Configuration Class and Register the Item Beans Using @Bean annotation
- Create a Java Class OrderService which has the SalesOrder and a method public double findTotal() which return total of the orderDetails
- 
  Register the SalesOrder class with @Component Annotation
  Use @AutoWire on the SalesOrder class constructor and wire the propertiers
-Use Spring DI and Inversion control and the print the orderDetails  and the List of Items on the console.
+ Create a Java Class OrderService which has the SalesOrder and a method public double findTotal() which return total of the orderDetails
 
+Try Practising => @Configuration,@Bean,@Component and @AutoWire and @Qualifier
+Try Using the alias name for the bean
+ 
 
 
 
