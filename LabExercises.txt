@@ -143,7 +143,7 @@ The following are the requirements
 
 ========================================================================================================
 
-Task -12
+Task -13
 
 Create a Spring Boot Strater Project and practice the following
 
@@ -176,6 +176,22 @@ public class Customer {
 
 6. Create More than one Customer and observer the output , if there are any exection thrown
    make the suitable changes
+
+Task -14
+
+Assignment -1 
+
+ Create a Java class SalesOrder with properties  ( int orderId, LocalDate createdDate,Customer customer, List<Item> itemList)
+ Create a Customer Class with properties ( int id, String customerName, String address)
+ Create a Item class with (long itemNumber, String itemName,double quantity ,double ratePerUnit)
+ Create a Configuration Class and Register the Item Beans Using @Bean annotation
+ Create a Java Class OrderService which has the SalesOrder and a method public double findTotal() which return total of the orderDetails
+ 
+ Register the SalesOrder class with @Component Annotation
+ Use @AutoWire on the SalesOrder class constructor and wire the propertiers
+Use Spring DI and Inversion control and the print the orderDetails  and the List of Items on the console.
+
+
 
 
 	
