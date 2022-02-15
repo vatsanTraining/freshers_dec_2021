@@ -1,0 +1,16 @@
+Create a Spring Boot REST API to manage the Loan Applications of a FinanceCompany
+
+1. The LoanApplication has to contain the following details 
+   ApplicationNumber,ApplicantName,ApplicationDate,LoanAmount,TypeOfLoan
+   Loan Types will be Housing Loan, Car Loan, Personal Loan 
+
+2. The Application should have the CRUD operations exposed 
+
+3. If the Client Invokes application with a Invalid Loan Type or Invalid Application Number 
+   it should sent appropriate Error Message in JSON format
+
+4. The Application also should provide endpoints to search by Loan Type, ApplicationDate and Applicant Name
+
+5. Handle Exceptions in all the Cases suitably
+
+ 
