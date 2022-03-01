@@ -20,7 +20,78 @@
 
 4) Create a Rest Controller  
 
-5) Invoke the service and chek
+5) Invoke the service and check
+=====================================================================
+Authorization Server
 
+
+AuthorizationServerConfigurerAdapter 
+
+	
+	@Autowired
+	BCryptPasswordEncoder encoder;
+	
+	@Autowired
+	AuthenticationManager manger;
+
+	@Override
+	public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+
+		 security.checkTokenAccess("isAuthenticated()").tokenKeyAccess("isAuthenticated()");
+		 
+	}
+
+	@Override
+	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+
+		clients.inMemory()
+		  .withClient("myclient")
+		    .secret(encoder.encode("pass123"))
+		     .scopes("read","write")
+		      .authorizedGrantTypes("password")
+		        .accessTokenValiditySeconds(3000)
+		          .refreshTokenValiditySeconds(6000);
+	}
+
+
+	@Override
+	public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+    
+		 endpoints.authenticationManager(manger);
+	}
+	
+	
+}
+===================================================================
+WebSecurityConfigurerAdapter
+
+@Autowired
+	private BCryptPasswordEncoder encoder;
+	
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+
+		
+		  auth.inMemoryAuthentication().withUser("india").password(encoder.encode("india")).roles("ADMIN")
+		  .and()
+		   .withUser("nepal").password(encoder.encode("nepal")).roles("USER");
+	
+	}
+
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+
+		http
+		  .authorizeRequests()
+		     .antMatchers("/oauth/token").permitAll();
+		
+	}
+
+	@Override
+	@Bean
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+		return super.authenticationManagerBean();
+	}
+	
 
 
