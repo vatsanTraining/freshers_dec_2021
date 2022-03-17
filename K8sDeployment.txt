@@ -1,0 +1,16 @@
+Create a Spring Boot Starter Project
+Add a Controller 
+Specify a Port 
+Create Dockerfile and update the contents Note the Expose value is same as server.port
+
+FROM java:8
+ARG JAR_FILE=target/product-service.jar
+COPY ${JAR_FILE} app.jar
+EXPOSE 2525
+ENTRYPOINT ["java","-jar","app.jar"] 
+
+docker build --tag vatsank/item-service:1.0 .
+kubectl create deployment spring-items --image=vatsank/item-service:1.0
+kubectl expose deployment spring-items --type=LoadBalancer --port=2525
+
+curl -v http://localhost:2525/products
