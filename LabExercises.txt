@@ -191,6 +191,28 @@ Task -14
 Try Practising => @Configuration,@Bean,@Component and @AutoWire and @Qualifier
 Try Using the alias name for the bean
  
+Task -15
+interface Automobile 
+    getColor
+    getModel
+    getPrice
+
+public class MarutiCar implements Automobile
+
+public class ToyotaCar implements Automobile
+
+public class ObjectFactory
+
+    public Automobile getObject(int key){}
+
+    public void printQuote(Automobile poly){}
+
+public class Application
+      main 
+         getObject()
+           printQuote()
+
+
 
 
 
