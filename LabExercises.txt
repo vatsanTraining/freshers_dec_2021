@@ -213,6 +213,17 @@ public class Application
            printQuote()
 
 
+Task -16
+
+1) Create a Maven Project credit-card-service 
+2) Create a Class CreditCard with properties like cardNumber,cardHolderName,amountDue
+3) Create a class CreditCardService with two methods 
+  public boolean addCard(CreditCard card)  public CreditCard[] getCards()
+4)  The Add Card method should store the card details in an Array 
+5) getCard Method  will return the Array 
+6) Test the Code From the Main Method
+7) From the Main Iterate through the array and Print total total amount Due
+
 
 
 
