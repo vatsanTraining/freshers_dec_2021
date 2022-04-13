@@ -1,0 +1,44 @@
+Task-1
+
+
+Application to Create a Collection of Links visited by a User in a Browser .  
+1) Create a Java Class History with attributes  
+	  String url and String time 
+2) Create a Class HistoryService and store the link details in a Linked List.
+3)  From the Main Application  print the 5 recently visited urls, List the urls visited by a given Time.
+
+Task-2
+
+Create a Java Class Invoice with following fields
+
+  private int invoiceNumber;
+	private String customerName;
+	private double amount
+
+ Create   Service InvoiceService with a method 
+     public static List<Invoice> getInvoice(){}  which return a list of Invoices 
+
+ Add the following methods and test the application 
+ 
+    public static  List<Invoice> sortedByAmountAsc(Collection<Invoice> invList){}
+
+    public Map<String,Double> mapViewOfList(Collection<Invoice> invList) {}
+          contains the customerName and Amount
+          
+    public Set<Invoice> setViewOfList(Collection<Invoice> invList,
+    		   Predicate<Invoice> predicate){}
+         Will return a Set of Invoice whose amount is matched 
+         with a predicate
+         
+   public long findMaxAmount(Collection<Invoice> invList,Comparator comp) {}
+   
+   
+Task -3
+
+1) Create a Java Application to store the Customer Details and Service Requests 
+   as a map ,Given a Customer Id , the Application should print the Service Requests 
+   of him in the Order of Pending and Completed
+
+
+
+   
