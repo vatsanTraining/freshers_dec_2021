@@ -1,0 +1,52 @@
+Task - 1  :Creating svn repository
+
+  1) Create a folder named svnroot 
+  2) Right Click on the folder choose tortoise vn 
+  3) Select Create Repository option
+ 
+Task -2 
+
+  1) Import files to repository
+  2) Select a Folder with exisiting files 
+  3) Choose Import  
+  4) Select the repository 
+  5) Open the repo browser and view the files
+  6) After viewing the files remove or delete them
+Task-3 
+  1) Create a sub folder called stream in trunk
+  2) import the folder to trunk   
+  3) Select AddFolder choose the folder with 
+     required entries
+
+  Task -4 
+ 1) Create a folder vats_dev
+ 2) Right Click on the folder Select SVN checkout
+ 3) Checkout the streams Project from the trunk
+ 4) Update any one of the Java class add/remove few line of code
+ 5) Commit the change 
+ 6) Right Click choose svn commit and add a Commit message
+
+Task - 5
+ 1) Creating a Branch and working with branch
+2) Create a New folder vats_test 
+3) Check out from the trunk
+4) Observe all the files are part of the new folder
+5) Right Click on the Folder and choose tortoise-svn/branch-tag
+6) In the ToPath : Give a Branch Name and select the revision can 
+   use the default number
+7) Right Click on the Project choose SwitchTo Select Branch Name
+8) Update Few Line of code in any of the java class
+9) Commit the changes
+
+Task -6 
+
+1) Merge the 
+
+
+
+
+
+
+
+
+ 
