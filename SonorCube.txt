@@ -10,6 +10,10 @@
     </pluginManagement>
 </build>
 
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 
+  -Dsonar.login=the-generated-token
+
+===================================
 
 1)	It is almost impossible to maintain a software for its whole life by the original author. 
 2)	Java Coding Best Practices and Standards help other developers (who are not the author of the code) to understand the code easily.
