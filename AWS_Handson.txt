@@ -1,0 +1,67 @@
+Login to Aws Admin Console
+Select Services 
+Select Elastic Bean Stalk
+Select Create Application
+Open the Spring tool suite
+Create a Spring Boot Starter Project
+Code the application 
+Change the port into 5000 => server.port=5000
+package the application into jar file using package goal
+Navigate again to admin console
+Select Create Application
+Enter a application name
+Select Platform and enter java 
+select platform branch into java 8
+Plastform version will be auto detected
+Select upload your code
+Select choose file - navigate to the location where the jar file 
+  is present and select
+Select Create Application
+Access the resource using the url generated
+=====================================================
+
+Select RDS from admin console
+Select Create Database
+Standard create
+Select Mysql
+keep the version 
+In template choose free tier
+dbisntance identifier - any name testdb
+set username /and passsword confirm password
+choose public access yes
+
+Select Addiontal confirmation 
+add the schema => test
+
+Create Database
+copy the endpoint and replace localhost in application.yml with the copied endpoint
+server port 5000
+select vpc security
+edit inbound rules//add rule
+select mysql/aurors 
+in the cusome chose to anywhere 
+save rule 
+===================================
+
+Deploying to Elastic Bean Stalk
+
+
+choose elastic bean stalk 
+create new environment
+provide applicatio name
+domain name / 
+choose platform as java
+platform baranch java 8
+configure more options
+database username/password
+
+save 
+create environment 
+copy the upload file 
+pick jar file 
+deploy
+copy the url and 
+endpoint api/v1/students
+
+
+
